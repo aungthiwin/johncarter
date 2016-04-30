@@ -252,12 +252,12 @@ color: #fff; border-radius: 8px; }
 /*@keyframes marquee {  0%  { text-indent: 30em } 100% { text-indent: -100em } }*/
 /*custom header promotion */
 .custom_menu_promotion { margin-top: 5.7em; } @media only screen and (max-width: 767px) { .custom_menu_promotion { margin-top: 2.8em; } }
-.domain_find { font-size: 3em; margin-left: 3em; font-family: 'latothinwebfont', sans-serif; font-weight: bold; }
-.domain_find_1 { padding-left: 10em; padding-top: 1em; color: #00aff9; }
+.domain_find { font-size: 3em; margin-left: 3em; font-family: 'latothinwebfont', sans-serif; font-weight: bold; } @media only screen and (max-width: 767px) { .domain_find { margin-left: 0; font-size: 1.5em; } }
+.domain_find_1 { padding-left: 10em; padding-top: 1em; color: #00aff9; } @media only screen and (max-width: 767px) { .domain_find_1 { padding: 0; font-size: 1.3em; } }
 .domain_font { font-family: 'latothinwebfont', sans-serif; color: #535454; font-weight: bold; }
 .domain_box { padding-bottom: 1em; padding-left: 0em; }
 .domain_bg { background: #53bce8; padding: 3em 0; }
-.domain_sale_img {padding-left: 1em; }
+.domain_sale_img {padding-left: 1em; } @media only screen and (max-width: 767px) { .domain_sale_img { width: 20%; } }
 .host_domain_text { color: #fff; font-size: 2.2em; padding-top: 1.5em; padding-bottom: 1em; }
 .host_domain_text_1 { color: #fff; font-size: 1.8em; padding-bottom: 1em; }
 .btn-custom { text-shadow: none; background: transparent; color: rgb(255, 255, 255); -webkit-box-shadow: inset 0px 0px 0px 3px rgba(50,50,50,.5); -moz-box-shadow: inset 0px 0px 0px 3px rgba(50,50,50,.5); box-shadow: inset 0px 0px 0px 3px rgb(255, 255, 255);  }

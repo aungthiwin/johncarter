@@ -8,25 +8,27 @@
 <section class="container-full">
 	<img src="images/domain.jpg" alt="Hosting" class="img-responsive img host-img">
 </section>
-<div class="top-space"></div>
+<div class="top-space visible-md visible-xl"></div>
 <section class="container">
 	<article class="row">
-		<h1 class = "domain_find">Find your perfect domain name.</h1>
-		<h3 class = "domain_find_1">Prices start at just $12/yr.
-		<img src="images/sales.jpg" alt="sales" class="img domain_sale_img"></h3>
-		<div class="top-space"></div>
-		<div class="col-md-2"></div>
-		<div class="col-md-6">
-    		<div class="input-group">
-				<input type="text" autocomplete="off" class="form-control" id="suggested_names" 
-				name="suggested_names" placeholder="Enter a desired domain name here" 
-				aria-describedby="basic-addon2">
-				<span class="input-group-addon vpb_general_button" id="basic-addon2">
-				<a href="javascript:void(0);" onClick="vpb_check_this_domain();">Search Domain
-				</a></span>
+		<div class="col-sm-12">
+			<h1 class = "domain_find">Find your perfect domain name.</h1>
+			<h3 class = "domain_find_1">Prices start at just $12/yr.
+			<img src="images/sales.jpg" alt="sales" class="img domain_sale_img"></h3>
+			<div class="top-space"></div>
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+	    		<div class="input-group">
+					<input type="text" autocomplete="off" class="form-control" id="suggested_names" 
+					name="suggested_names" placeholder="Enter a desired domain name here" 
+					aria-describedby="basic-addon2">
+					<span class="input-group-addon vpb_general_button" id="basic-addon2">
+					<a href="javascript:void(0);" onClick="vpb_check_this_domain();">Search Domain
+					</a></span>
+				</div>
 			</div>
+			<div class="col-md-4"></div>
 		</div>
-		<div class="col-md-4"></div>
 	</article>
 	<article class="row top-margin">
 		<div class="col-md-2"></div>
@@ -40,23 +42,16 @@
 		</div>
 	</article>
 </section>
-<section class="container-fluid">
-	<article class="row top-space domain_bg">
+<div class="top-space"></div>
+<section class="container-fluid domain_bg">
+	<article class="">  
 		<div class="col-md-1"></div>
-		<div class="col-md-6 col-sm-12">
+		<div class="col-md-5 col-sm-12">
 			<img src="images/domain_reg.jpg" alt="" class="img img-responsive domain_img">
 		</div>
-		<div class="col-md-2 col-sm-12">
-			<div class=""><img src="images/com.jpg" alt=".com" class="img img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-12 domain_box">
-			<div class=""><img src="images/net.jpg" alt=".net" class="img img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-12">
-			<div class=""><img src="images/org.jpg" alt=".org" class="img img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-12 domain_box">
-			<div class=""><img src="images/info.jpg" alt=".info" class="img img-responsive"></div>
+		<div class="top-space hidden-md hidden-xl"></div>
+		<div class="col-md-5 col-sm-12">
+			<img src="images/com.jpg" alt="" class="img img-responsive domain_img">
 		</div>
 		<div class="col-md-1"></div>
 	</article>

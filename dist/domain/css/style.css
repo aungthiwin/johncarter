@@ -5,7 +5,7 @@
 /*Vasplus Button*/
 .vpb_general_button 
 {
- background-color: #7fbf4d;
+  background-color: #7fbf4d;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
   background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
   background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
@@ -21,7 +21,6 @@
   min-width: 70px;
   padding:7px;
   padding-bottom:7px;
-  text-decoration:none;
 }
 .vpb_general_button:hover 
 {
@@ -33,10 +32,15 @@
     background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
     background-image: linear-gradient(top, #76b347, #5e9e2e);
     box-shadow: 0 2px 3px #666666;
-	-moz-box-shadow: 0 2px 3px #666666;
-	-webkit-box-shadow: 0 2px 3px #666666;
+	   -moz-box-shadow: 0 2px 3px #666666;
+	   -webkit-box-shadow: 0 2px 3px #666666;
     cursor: pointer; 
+    text-decoration: none;
+    -moz-text-decoration: none;
+    -webkit-text-decoration: none;
 }
-
+.vpb_general_button a { text-decoration: none; -moz-text-decoration: none; -webkit-text-decoration: none; }
+.vpb_general_button a:hover { text-decoration: none; -moz-text-decoration: none; -webkit-text-decoration: none; }
+.vpb_general_button a { color: #fff; }
  .taken span {background: #F08F78; padding: 0.5em 1em 0.5em 1em; border-radius: 4px; }
  .available span { background: #bce67b; padding: 0.5em 1em 0.5em 1em; border-radius: 4px; }
