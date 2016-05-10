@@ -38,7 +38,7 @@
 	</article>
 	<article class = "row">
 		<div class="col-md-12">
-			<div id="vpb_search_status" style=""></div>
+			<div id="vpb_search_status"></div>
 		</div>
 	</article>
 </section>
@@ -74,6 +74,6 @@
 </section> -->
 
 <link href="dist/domain/css/style.css" rel="stylesheet" type="text/css">
-<!-- <script type="text/javascript" src="dist/domain/js/jquery_1.5.2.js"></script> -->
+<script type="text/javascript" src="dist/domain/js/jquery_1.5.2.js"></script> 
 <script type="text/javascript" src="dist/domain/js/post_watermarkinput.js"></script>
 <script type="text/javascript" src="dist/domain/js/vpb_script.js"></script>

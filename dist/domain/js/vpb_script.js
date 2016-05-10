@@ -9,14 +9,9 @@ function vpb_buy_now(selected_domain_to_buy)
 // Auto submit search for this domain when the user preses the enter key on his or her computer
 $(document).ready(function()
 {
-	$("#suggested_names").Watermark("Enter a desired domain name here"); 
-	
-	//Search domain on pressing of the enter key on computer keyboard
-	$('#suggested_names').live("keydown",function(vpb_event) 
-	{
-		if(vpb_event.keyCode == 13 && vpb_event.shiftKey == 0)
-		{
-			vpb_check_this_domain();
+		$('#suggested_names').keyup(function (e) {
+		if (e.keyCode == 13) {
+		vpb_check_this_domain();
 		}
 	});
 });
